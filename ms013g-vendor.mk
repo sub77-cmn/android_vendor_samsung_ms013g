@@ -18,9 +18,6 @@
 PRODUCT_PACKAGES += \
 	libtime_genoff \
 	libTimeService \
-	TimeService \
-	DBPie \
-	SpritF \
-	Viper
+	TimeService
 
 $(call inherit-product, vendor/samsung/ms013g/ms013g-vendor-blobs.mk)
