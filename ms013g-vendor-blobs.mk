@@ -66,6 +66,15 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/etc/Hdmi_cal.acdb:system/etc/Hdmi_cal.acdb \
     $(LOCAL_PATH)/proprietary/etc/Headset_cal.acdb:system/etc/Headset_cal.acdb \
     $(LOCAL_PATH)/proprietary/etc/Speaker_cal.acdb:system/etc/Speaker_cal.acdb \
+    $(LOCAL_PATH)/proprietary/etc/Diag.cfg:system/etc/Diag.cfg \
+    $(LOCAL_PATH)/proprietary/etc/Diag_audio.cfg:system/etc/Diag_audio.cfg \
+    $(LOCAL_PATH)/proprietary/etc/Diag_gps.cfg:system/etc/Diag_gps.cfg \
+    $(LOCAL_PATH)/proprietary/etc/Diag_volte.cfg:system/etc/Diag_volte.cfg \
+    $(LOCAL_PATH)/proprietary/etc/Diag_zero.cfg:system/etc/Diag_zero.cfg \
+    $(LOCAL_PATH)/proprietary/etc/alp_cal.dat:system/etc/alp_cal.dat \
+    $(LOCAL_PATH)/proprietary/etc/plmn_delta.bin:system/etc/plmn_delta.bin \
+    $(LOCAL_PATH)/proprietary/etc/plmn_se13.bin:system/etc/plmn_se13.bin \
+    $(LOCAL_PATH)/proprietary/etc/srm.bin:system/etc/srm.bin \
     $(LOCAL_PATH)/proprietary/vendor/lib/libacdbloader.so:system/vendor/lib/libacdbloader.so \
     $(LOCAL_PATH)/proprietary/vendor/lib/libacdbrtac.so:system/vendor/lib/libacdbrtac.so \
     $(LOCAL_PATH)/proprietary/vendor/lib/libadiertac.so:system/vendor/lib/libadiertac.so \
