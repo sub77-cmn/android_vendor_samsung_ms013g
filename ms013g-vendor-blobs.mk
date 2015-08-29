@@ -238,20 +238,21 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/bin/at_distributor:system/bin/at_distributor \
     $(LOCAL_PATH)/proprietary/bin/qmuxd:system/bin/qmuxd \
     $(LOCAL_PATH)/proprietary/bin/radish:system/bin/radish \
-    $(LOCAL_PATH)/proprietary/bin/rild:system/bin/rild \
     $(LOCAL_PATH)/proprietary/lib/libatparser.so:system/lib/libatparser.so \
     $(LOCAL_PATH)/proprietary/lib/libcordon.so:system/lib/libcordon.so \
     $(LOCAL_PATH)/proprietary/lib/libfactoryutil.so:system/lib/libfactoryutil.so \
     $(LOCAL_PATH)/proprietary/lib/libomission_avoidance.so:system/lib/libomission_avoidance.so \
-    $(LOCAL_PATH)/proprietary/lib/libreference-ril.so:system/lib/libreference-ril.so \
     $(LOCAL_PATH)/proprietary/lib/libsecnativefeature.so:system/lib/libsecnativefeature.so \
-    $(LOCAL_PATH)/proprietary/lib/libsecril-client.so:system/lib/libsecril-client.so \
     $(LOCAL_PATH)/proprietary/lib/libsec-ril.so:system/lib/libsec-ril.so \
     $(LOCAL_PATH)/proprietary/lib/libsec-ril-dsds.so:system/lib/libsec-ril-dsds.so \
-    $(LOCAL_PATH)/proprietary/lib/libril.so:system/lib/libril.so \
-    $(LOCAL_PATH)/proprietary/lib/librilutils.so:system/lib/librilutils.so \
     $(LOCAL_PATH)/proprietary/vendor/lib/libconfigdb.so:system/vendor/lib/libconfigdb.so \
     $(LOCAL_PATH)/proprietary/vendor/lib/libril-qcril-hook-oem.so:system/vendor/lib/libril-qcril-hook-oem.so
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/proprietary/bin/rild:system/bin/rild \
+    $(LOCAL_PATH)/proprietary/lib/libreference-ril.so:system/lib/libreference-ril.so \
+    $(LOCAL_PATH)/proprietary/lib/libsecril-client.so:system/lib/libsecril-client.so \
+    $(LOCAL_PATH)/proprietary/lib/libril.so:system/lib/libril.so \
+    $(LOCAL_PATH)/proprietary/lib/librilutils.so:system/lib/librilutils.so
 
 # Sensors
 PRODUCT_COPY_FILES += \
@@ -266,10 +267,10 @@ PRODUCT_COPY_FILES += \
 
 # Time Services
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/proprietary/app/TimeService/TimeService.apk:system/app/TimeService/TimeService.apk \
     $(LOCAL_PATH)/proprietary/bin/time_daemon:system/bin/time_daemon \
     $(LOCAL_PATH)/proprietary/vendor/lib/libtime_genoff.so:system/vendor/lib/libtime_genoff.so \
     $(LOCAL_PATH)/proprietary/vendor/lib/libTimeService.so:system/vendor/lib/libTimeService.so
+#    $(LOCAL_PATH)/proprietary/app/TimeService/TimeService.apk:system/app/TimeService/TimeService.apk \
 
 # Camera
 PRODUCT_COPY_FILES += \
