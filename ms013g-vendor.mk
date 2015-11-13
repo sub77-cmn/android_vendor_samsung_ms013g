@@ -16,9 +16,8 @@
 
 # Pick up overlay for features that depend on non-open-source files
 PRODUCT_PACKAGES += \
-	libtime_genoff \
-	libHevcSwDecoder \
-	libTimeService \
-	TimeService
+    com.qualcomm.location \
+    libHevcSwDecoder \
+    TimeService
 
 $(call inherit-product, vendor/samsung/ms013g/ms013g-vendor-blobs.mk)
